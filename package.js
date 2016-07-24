@@ -2,7 +2,7 @@ Package.describe({
   name: 'jagi:astronomy',
   version: '2.1.0',
   summary: 'Model layer for Meteor',
-  git: 'https://github.com/jagi/meteor-astronomy.git'
+  git: 'https://github.com/jaydeebee/meteor-astronomy.git'
 });
 
 Npm.depends({
@@ -99,5 +99,5 @@ Package.onTest(function(api) {
   // Modules - Methods.
   api.addFiles([
     // 'test/methods/methods_definition.js'
-  ], ['client', 'server']);
+  ], ['client', 'server'])
 });
